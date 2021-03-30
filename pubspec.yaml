@@ -2,7 +2,7 @@ name: labeled_list
 description: >-
   An implementation of list that accepts an optional
   label with every element added to the list.
-version: 0.1.0
+version: 0.1.0+1
 homepage: https://github.com/james-alex/labeled_list
 
 environment:
