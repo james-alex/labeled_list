@@ -14,10 +14,13 @@ be set and retrieved by an optional label assigned to each element.
 
 ```dart
 final labledList =
-    LabeledList<String>.of(['zero', 'one', 'two'], labels: ['a', 'b', 'c']);
+    LabeledList<String>.of(['a', 'b', 'c'], labels: ['one', 'two', 'three']);
 
-print(labeledList[0]); // zero
-print(labeledList['a']); // zero
+print(labeledList[0]); // a
+print(labeledList['one']); // a
+
+labeledList['one'] = 'd';
+print(labeledList['one']); // d
 ```
 
 Labels can be assigned to elements when a [LabeledList] is constructed,
